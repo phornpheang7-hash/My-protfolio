@@ -80,3 +80,13 @@ section p {
     max-width: 700px;
     margin: auto;
 }
+
+.about-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
