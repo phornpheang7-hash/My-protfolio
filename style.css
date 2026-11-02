@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #14213d;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background-color: #1f355e;
+}
+
+header h1 {
+    color: #fca311;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #fca311;
+}
+
+/* Hero Section */
+#home {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+#home h2 {
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+#home p {
+    color: #cccccc;
+}
+
+#home a {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #fca311;
+    color: #14213d;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* General Sections */
+section:not(#home) {
+    padding: 80px 8%;
+    text-align: center;
+}
+
+section h2 {
+    color: #fca311;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #cccccc;
+    max-width: 700px;
+    margin: auto;
+}
